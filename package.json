@@ -1,0 +1,36 @@
+{
+  "name": "npm-weekly-md",
+  "version": "1.0.0",
+  "description": "Transform npm-weekly to markdown",
+  "main": "index.js",
+  "repository": "chentsulin/npm-weekly-md",
+  "bin": {
+    "npm-weekly-md": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "C. T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "https://github.com/chentsulin"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0"
+  },
+  "homepage": "https://github.com/chentsulin/npm-weekly-md",
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "weekly",
+    "md",
+    "markdown"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.26",
+    "cheerio": "^0.19.0",
+    "request": "^2.55.0",
+    "to-markdown": "^1.2.1"
+  }
+}
