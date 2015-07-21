@@ -13,6 +13,8 @@ module.exports = function(url) {
       return toMarkdown($('section.caption.group').html())
         .replace('</div>', '')
         .replace('<div class="cont group">', '')
+        .replace(/<figure.*>/, '')
+        .replace('</figure>', '')
     })
 }
 
