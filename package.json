@@ -1,6 +1,6 @@
 {
   "name": "npm-weekly-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform npm-weekly to markdown",
   "main": "index.js",
   "repository": "chentsulin/npm-weekly-md",
